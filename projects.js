@@ -8,13 +8,13 @@ const projects = [
   {
     title: "Sistema Inteligente de Scoring Crediticio",
     description: "Modelo de deep learning explicable para predecir probabilidad de impago en clientes bancarios.",
-    image: "img/proyecto2.jpg",
+    image: "img/proyecto2.png",
     link: "proyecto2/index.html"
   },
   {
     title: "Conversión SAP ECC a SAP S4 HANA RISE",
     description: "Proyecto de migración y conversión liderando un equipo multidisciplinario en la Universidad Diego Portales.",
-    image: "img/proyecto3.jpg",
+    image: "img/proyecto3.png",
     link: "proyecto3/index.html"
   }
 ];
