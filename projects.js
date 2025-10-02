@@ -7,7 +7,7 @@ const projects = [
   },
   {
     title: "Sistema Inteligente de Scoring Crediticio",
-    description: "Modelo de deep learning explicable para predecir probabilidad de impago en clientes bancarios.",
+    description: "Modelo de deep learning para predecir probabilidad de impago en clientes bancarios.",
     image: "img/proyecto2.png",
     link: "proyecto2/index.html"
   },
