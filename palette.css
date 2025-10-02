@@ -1,0 +1,23 @@
+:root {
+  /* === Colores base (fondos) === */
+  --color-bg-dark: #0d1117;      /* Fondo general del sitio */
+  --color-bg-deep: #0a0f2c;      /* Header, footer, bloques oscuros */
+  --color-bg-card: #161b22;      /* Tarjetas de proyectos, bloques destacados */
+
+  /* === Azules principales === */
+  --color-blue-bright: #58a6ff;  /* Enlaces, títulos principales */
+  --color-blue-hover: #79c0ff;   /* Hover en enlaces y botones */
+  --color-blue-mid: #3b82f6;     /* Degradados, resaltes */
+  --color-blue-soft: #60a5fa;    /* Degradados, gráficos */
+
+  /* === Violetas y acentos === */
+  --color-violet-soft: #a78bfa;  /* Subtítulos, detalles */
+
+  /* === Grises === */
+  --color-text-main: #e6edf3;    /* Texto principal */
+  --color-text-secondary: #94a3b8; /* Texto secundario, footer */
+
+  /* === Sombras === */
+  --shadow-dark: rgba(0, 0, 0, 0.6);
+  --shadow-deep: rgba(0, 0, 0, 0.8);
+}
