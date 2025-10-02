@@ -1,12 +1,117 @@
-/* === Global === */
-body { margin:0; font-family:Segoe UI,Arial,sans-serif; background:#f8f9fa; color:#333; }
-header { background:#222; color:white; padding:1rem 2rem; }
-header nav { display:flex; justify-content:space-between; align-items:center; }
-header ul { list-style:none; display:flex; gap:1.5rem; margin:0; padding:0; }
-header ul li a { color:white; text-decoration:none; font-weight:500; }
-.intro, .about, .contact, .project-detail, .projects { max-width:900px; margin:auto; padding:2rem; }
-.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; }
-.project-card { background:white; padding:1rem; border-radius:10px; box-shadow:0 3px 8px rgba(0,0,0,0.08); transition:transform .2s; }
-.project-card:hover { transform:translateY(-5px); }
-.project-card img { width:100%; border-radius:8px; margin-bottom:1rem; }
-footer { background:#222; color:white; text-align:center; padding:1rem; margin-top:2rem; }
+/* ======== Estilos Globales ======== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0d1117; /* fondo muy oscuro */
+  color: #e6edf3; /* gris azulado claro para el texto */
+  line-height: 1.6;
+}
+
+a {
+  color: #58a6ff; /* azul brillante */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #79c0ff; /* azul más claro en hover */
+}
+
+/* ======== Header y Nav ======== */
+header {
+  background: linear-gradient(90deg, #0a0f2c, #1e3a8a, #3b82f6); /* degradado azul-violeta */
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa); /* azul a violeta */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li a {
+  color: #e6edf3;
+  font-weight: 500;
+}
+
+/* ======== Secciones ======== */
+.intro, .about, .contact, .project-detail, .projects {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.intro h2, .about h2, .contact h2, .projects h2, .project-detail h2 {
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+/* ======== Grid de proyectos ======== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #161b22; /* azul oscuro */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.6);
+  transition: transform 0.2s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.8);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* ======== Página detalle de proyectos ======== */
+.project-detail h3 {
+  margin-top: 1.5rem;
+  color: #a78bfa; /* violeta suave */
+}
+
+.project-detail ul {
+  list-style: disc inside;
+  margin: 1rem 0;
+}
+
+/* ======== Footer ======== */
+footer {
+  background: #0a0f2c;
+  color: #94a3b8; /* gris azulado */
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #1e293b;
+}
