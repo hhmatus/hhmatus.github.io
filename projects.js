@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Clasificación de notas clínicas para detección temprana",
+    title: "Clasificación de notas clínicas para diagnostico asistido",
     description: "Sistema de NLP para clasificar notas clínicas y detectar gravedad de afecciones, con enfoque ético y mitigación de sesgos.",
     image: "img/proyecto1.png",
     link: "proyecto1/index.html"
