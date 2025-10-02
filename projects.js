@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Conversión SAP ECC a SAP S4 HANA RISE",
-    description: "Proyecto de migración y conversión liderando un equipo multidisciplinario en la Universidad Diego Portales.",
+    description: "Proyecto de conversión y migración ERP Universidad Diego Portales.",
     image: "img/proyecto3.png",
     link: "proyecto3/index.html"
   }
