@@ -127,3 +127,48 @@ footer {
   margin-top: 2rem;
   border-top: 1px solid var(--color-bg-card);
 }
+
+/* ===== Contacto - Formulario ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+form label {
+  font-weight: 600;
+  color: var(--color-blue-bright);
+}
+
+form input, form textarea {
+  padding: 0.8rem;
+  border: 1px solid var(--color-bg-card);
+  border-radius: 6px;
+  background: var(--color-bg-card);
+  color: var(--color-text-main);
+  font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: var(--color-blue-bright);
+  box-shadow: 0 0 5px var(--color-blue-hover);
+}
+
+form button {
+  background: var(--color-blue-mid);
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: var(--color-blue-hover);
+}
+
